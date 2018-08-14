@@ -1,0 +1,50 @@
+body{text-align:center;
+	z-index: 0;
+	
+}
+
+.win-message {
+z-index: 1;
+margin-left: auto;
+margin-right: auto;
+width: 505px;
+height: 606px;
+color: red;
+font-size: 16px;
+font-family: "Times New Roman", Times, serif;
+  animation-name: bgr;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation-name: bgr;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+} 
+
+@keyframes bgr {
+    0%   {background-color: #99ccff;}
+    25%  {background-color: #80bfff ;}
+    50%  {background-color: #66b3ff ;}
+    100% {background-color: #4da6ff ;}
+}
+
+@-webkit-keyframes bgr {
+    0%   {background-color: #99ccff;}
+    25%  {background-color: #80bfff ;}
+    50%  {background-color: #66b3ff ;}
+    100% {background-color: #4da6ff ;}
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.none {
+	display:none;
+}
+
+.rpt {
+cursor: pointer;
+float: right;
+}
