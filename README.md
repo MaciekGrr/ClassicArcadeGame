@@ -4,10 +4,10 @@
 ## Table of Contents
 
 * [How to Play!](#play)
-* [Description](#description)
 * [Instructions](#instructions)
 * [How To Install](#installation)
 * [Contributing](#contributing)
+* [Description](#description)
 
 ## How to play
 
