@@ -20,7 +20,7 @@ var Engine = (function(global) {
      */
     var doc = global.document,
         win = global.window,
-        myCanvas = doc.getElementById("myCanvas"),
+        myCanvas = doc.getElementById('myCanvas'),
         canvas = doc.createElement('canvas'), //;
         ctx = canvas.getContext('2d'),
         lastTime;
@@ -164,8 +164,9 @@ var Engine = (function(global) {
      * those sorts of things. It's only called once by the init() method.
      */
     function reset() {
-    doc.getElementById("myCanvas"),
-    canvas = doc.createElement('canvas'), //;
+     
+   var gg = doc.getElementById('gg');
+
     }
 
     /* Go ahead and load all of the images we know we're going to need to

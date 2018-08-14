@@ -37,6 +37,9 @@ if (this.x < player.x + player.width &&  // MDN documentation 2D collisions func
    this.height + this.y > player.y) {                        
         player.x= 200;
         player.y= 400;
+        gg.classList.remove("none");
+        myCanvas.classList.add("none"); 
+        document.querySelector(".mid").innerHTML = 'You are dead!';
         }
     }
 
@@ -85,9 +88,13 @@ class Player {
             if (this.y <= 67) { // this if blocks from the top side
             gg.classList.remove("none");
             myCanvas.classList.add("none"); 
+            player.x= 200;
+            player.y= 400;
+            document.querySelector(".mid").innerHTML = 'Congratulation you won!';
             }
 
         }
+    
 
     
 

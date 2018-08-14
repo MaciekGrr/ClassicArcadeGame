@@ -1,10 +1,15 @@
 body{text-align:center;
-	z-index: 0;
-	
+}
+
+.myCanvas{
+position: relative;
+z-index: 0;
 }
 
 .win-message {
-z-index: 1;
+
+position: relative;
+z-index: 10;
 margin-left: auto;
 margin-right: auto;
 width: 505px;
@@ -47,4 +52,13 @@ font-family: "Times New Roman", Times, serif;
 .rpt {
 cursor: pointer;
 float: right;
+}
+
+.mid {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 0.5em;
+  display: inline-block;
 }
