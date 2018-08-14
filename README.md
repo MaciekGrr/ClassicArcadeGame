@@ -1,5 +1,7 @@
-frontend-nanodegree-arcade-game
+ClassicArcadeGameClone 
 ===============================
+
+Creating ClassicArcadeGame is a 4th project evaluated by Udacity's course FEND ( https://eu.udacity.com/courses/all)
 
 Students should use this 
 [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. 
