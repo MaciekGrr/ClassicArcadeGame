@@ -8,6 +8,7 @@
 * [How To Install](#installation)
 * [Contributing](#contributing)
 * [Description](#description)
+* [Dependencies]
 
 ## How to play
 
@@ -40,3 +41,7 @@ Make sure the functions you write are **object-oriented** - either class functio
 class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and 
 class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 
 1. Run and 2. Play your arcade game.
+
+## Dependencies
+
+*bootstrap & *font-awesome https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css

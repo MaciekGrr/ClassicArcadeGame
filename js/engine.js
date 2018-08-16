@@ -164,7 +164,6 @@ var Engine = (function(global) {
      * those sorts of things. It's only called once by the init() method.
      */
     function reset() {
-     
    var gg = doc.getElementById('gg');
 
     }

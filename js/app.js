@@ -123,13 +123,13 @@ class Player {
 
 
 const allEnemies = [];                    // Place all enemy objects in an array called allEnemies
-let firstEnemy = new Enemy(60, 60, 20);
+let firstEnemy = new Enemy(-50, 60, 20);
 allEnemies.push(firstEnemy);
-let firEnemy = new Enemy(10, 60, 60);   // One y step = 83
+let firEnemy = new Enemy(10, 60, 140);   // One y step = 83
 allEnemies.push(firEnemy);
-let secEnemy = new Enemy(30, 143, 60);
+let secEnemy = new Enemy(30, 143, 80);
 allEnemies.push(secEnemy);
-let thirdEnemy = new Enemy(1, 226, 60);
+let thirdEnemy = new Enemy(1, 226, 100);
 allEnemies.push(thirdEnemy);
 let player = new Player(200, 400); // Place the player object in a variable called player
 
