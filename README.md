@@ -3,12 +3,12 @@
 
 ## Table of Contents
 
-* [How to Play!](#play)
+* [How to Play!](#howtoplay)
 * [Instructions](#instructions)
-* [How To Install](#installation)
+* [How To Install](#howtoinstall)
 * [Contributing](#contributing)
 * [Description](#description)
-* [Dependencies] (#dependencies)
+* [Dependencies](#dependencies)
 
 ## How to play
 
