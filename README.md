@@ -8,7 +8,7 @@
 * [How To Install](#installation)
 * [Contributing](#contributing)
 * [Description](#description)
-* [Dependencies]
+* [Dependencies] (#dependencies)
 
 ## How to play
 
